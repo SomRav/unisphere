@@ -1,0 +1,143 @@
+{
+    "users": [
+      {
+        "id": "user-001",
+        "username": "alex_dev",
+        "email": "alex_dev@example.com"
+      },
+      {
+        "id": "user-002",
+        "username": "typescript_fan",
+        "email": "typescript_fan@example.com"
+      },
+      {
+        "id": "user-003",
+        "username": "db_master",
+        "email": "db_master@example.com"
+      }, 
+      {
+        "id": "user-004",
+        "username": "future_coder",
+        "email": "future_coder@example.com"
+      }
+    ],
+    "communities": [
+      {
+        "id": "community-001",
+        "title": "Computer Science",
+        "description": "Discussions about algorithms, programming languages, and software development for university students and faculty.",
+        "members": "1,245",
+        "category": "STEM",
+        "createdAt": "2024-10-05"
+      },
+      {
+        "id": "community-002",
+        "title": "Biology & Life Sciences",
+        "description": "Explore cellular biology, genetics, ecology, and biodiversity. Connect with fellow biology students and researchers.",
+        "members": "879",
+        "category": "STEM",
+        "createdAt": "2024-09-12"
+      },
+      {
+        "id": "community-003",
+        "title": "Psychology",
+        "description": "Discussions on human behavior, cognitive processes, mental health, and psychological research methodologies.",
+        "members": "1,532",
+        "category": "Social Sciences",
+        "createdAt": "2024-08-23"
+      },
+      {
+        "id": "community-004",
+        "title": "Literature Club",
+        "description": "A space for book lovers to discuss classic and contemporary literature, poetry, and creative writing.",
+        "members": "756",
+        "category": "Arts & Humanities",
+        "createdAt": "2024-10-01"
+      },
+      {
+        "id": "community-005",
+        "title": "Engineering Projects",
+        "description": "Collaborate on engineering challenges, share project ideas, and get feedback on designs and implementations.",
+        "members": "984",
+        "category": "STEM",
+        "createdAt": "2024-09-18"
+      },
+      {
+        "id": "community-006",
+        "title": "Business & Entrepreneurship",
+        "description": "Connect with aspiring entrepreneurs, discuss business models, startups, and market trends.",
+        "members": "1,120",
+        "category": "Business",
+        "createdAt": "2024-07-30"
+      }
+    ],
+    "threads": [
+      {
+        "id": "thread-001",
+        "communityId": "community-001",
+        "title": "Best practices for React component organization?",
+        "authorId": "user-001",
+        "timestamp": "2025-04-06T14:30:00Z",
+        "type": "Question",
+        "votes": 12
+      },
+      {
+        "id": "thread-002",
+        "communityId": "community-001",
+        "title": "New features in TypeScript 5.0 - what are you most excited about?",
+        "authorId": "user-002",
+        "timestamp": "2025-04-05T10:00:00Z",
+        "type": "Discussion",
+        "votes": 31
+      },
+      {
+        "id": "thread-003",
+        "communityId": "community-002",
+        "title": "How to get started with machine learning?",
+        "authorId": "user-003",
+        "timestamp": "2025-04-04T09:00:00Z",
+        "type": "Question",
+        "votes": 20
+      },
+      {
+        "id": "thread-004",
+        "communityId": "community-002",
+        "title": "Big data technologies to watch in 2025",
+        "authorId": "user-004",
+        "timestamp": "2025-04-03T08:00:00Z",
+        "type": "Discussion",
+        "votes": 45
+      }
+    ],
+    "replies": [
+      {
+        "id": "reply-001",
+        "threadId": "thread-001",
+        "authorId": "user-002",
+        "timestamp": "2025-04-06T15:00:00Z",
+        "content": "I recommend using a feature-based folder structure."
+      },
+      {
+        "id": "reply-002",
+        "threadId": "thread-002",
+        "authorId": "user-001",
+        "timestamp": "2025-04-05T11:00:00Z",
+        "content": "The improved type inference is a game-changer!"
+      },
+      {
+        "id": "reply-003",
+        "threadId": "thread-003",
+        "authorId": "user-004",
+        "timestamp": "2025-04-04T10:00:00Z",
+        "content": "Start with the basics of Python and statistics."
+      },
+      {
+        "id": "reply-004",
+        "threadId": "thread-004",
+        "authorId": "user-003",
+        "timestamp": "2025-04-03T09:00:00Z",
+        "content": "Apache Flink is gaining a lot of traction."
+      }
+    ]
+  }
+  

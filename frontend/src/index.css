@@ -1,0 +1,13 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@font-face {
+  font-family: "sdfont";
+  src: url("./assets/fonts/SuperDessert.ttf");
+}
+
+@theme {
+  --font-sdfont: "sdfont", sans-serif;
+  --font-inter: "Inter", sans-serif;
+  --default-font-family: var(--font-inter);
+}
